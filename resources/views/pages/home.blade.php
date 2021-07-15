@@ -3,7 +3,7 @@
 @section('content')
     <!-- content -->
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="margin-top: 60px;">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-12 col-md-12">
@@ -19,14 +19,11 @@
       <section>
         <div class="container">
   
-          <div class="row">
+          <div class="row produk">
   
             <div class="col-12 col-lg-5">
               <h1 class="display-4">Produk <br> Unggulan</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus at rem neque consequatur harum adipisci porro quas ab explicabo dolores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, a.</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illum nam libero doloribus accusamus consectetur reiciendis illo ut eos aut cupiditate veniam eaque, 
-              </p>
+              <p>Produk yang kami tawarkan dapat mengisi dan menjawab atas kebutuhan masyarakat dengan produk simpan pinjam dan pembiayaan syariah yang bebas dari maysir, gharrar, dan riba.</p>
             </div>
   
             <div class="col">
@@ -146,10 +143,10 @@
             </div>
           </div>
   
-          <div class="row mt-5">
+          <div class="row mt-5 tentang-kami">
             <div class="col-11 col-lg-6 col-md-11">
               <h1 class="display-1 my-2">Tentang Kami</h1>
-              <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem doloribus eligendi iure distinctio vitae sed cumque ut dolor odio optio unde eos sit dolore repellendus assumenda libero quaerat ab enim, quia vero repudiandae placeat aperiam praesentium neque. Accusantium quis similique esse qui, animi quos nemo mollitia, voluptate unde ullam porro provident ipsa sit consequatur repellat ad dolore </p>
+              <p class="mt-5">Al Hikmah Syariah adalah lembaga keuangan berbadan hukum koperasi yang bergerak di bidang simpan pinjam dan pembiayaan syariah yang bertujuan untuk membantu memajukan kesejehteraan anggota pada khususnya dan masyarakat pada umumnya.</p>
             </div>
             <div class="col-5 offset-1">
               <img src="{{url('alhikmah/assets/images/Al Hikmah Portrait 1.png')}}" alt="">

@@ -18,3 +18,15 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/simpanan', 'SimpananController@index')->name('simpanan');
+
+// pembiayaan
+Route::get('/pembiayaan-mub', 'PembiyaanController@index')->name('pembiyaanmub');
+Route::get('/pembiayaan-beb', 'PembiyaanController@beb')->name('pembiayaanbeb');
+Route::get('/pembiayaan-kbb', 'PembiyaanController@kbb')->name('pembiayaankbb');
+Route::get('/pembiayaan-mab', 'PembiyaanController@mab')->name('pembiayaanmab');
+Route::get('/pembiayaan-uhb', 'PembiyaanController@uhb')->name('pembiayaanuhb');
+
+Route::get('/penyaluran-ziswaf', 'PenyaluranziswafController@index')->name('penyaluranziswaf');
+Route::get('/daftar', 'DaftarController@index')->name('daftar');
+
